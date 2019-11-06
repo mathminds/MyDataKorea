@@ -6,7 +6,7 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import logo from '../assets/images/mydata/mydata-wheel-logo.png'
+import logo from '../assets/images/mydata/declaratio-badge-500x500-300x300.png'
 import SubscribeToMailingList from '../components/SubscribeToMailingList'
 
 class Index extends React.Component {
@@ -28,7 +28,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="MyData Scotland" />
+        <Helmet title="MyData Korea" />
 
         <Header />
 
@@ -43,18 +43,15 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>MyData 선언문</h2>
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                  MyData Declaration에 대한 간랸한 설명 추가
                 </p>
                 <ul className="actions">
                   <li>
-                    <Link to="/generic" className="button">
-                      Learn More
+                    <Link to="/declaration" className="button">
+                      선언문 읽어보기
                     </Link>
                   </li>
                 </ul>
@@ -67,31 +64,28 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>MyData에 관하여</h2>
             </header>
             <ul className="features">
               <li>
                 <span className="icon major style1 fa-code" />
-                <h3>Ipsum consequat</h3>
+                <h3>새로운 개념</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  BigData와 마찬가지로 MyData는 다양한 프로젝트 및 이니셔티브를 포함하는 개인 데이터 관리 유형의 포괄적인 용어입니다.
                 </p>
               </li>
               <li>
                 <span className="icon major style3 fa-copy" />
-                <h3>Amed sed feugiat</h3>
+                <h3>상호운용성</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  이메일 계정처럼 MyData Operator는 여러 당사자가 호스팅하거나 자체 호스팅 할 수 있습니다. 하나의 특정 회사가 아닙니다.
                 </p>
               </li>
               <li>
                 <span className="icon major style5 fa-diamond" />
-                <h3>Dolor nullam</h3>
+                <h3>현재 진행중</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  모바일 전화와 마찬가지로 MyData는 모든 사람이 이용할 수있는 글로벌 액세스 가능한 네트워크 일 때 성공했을 것입니다. 이것이 우리가 추구하는 것입니다.
                 </p>
               </li>
             </ul>
@@ -99,74 +93,60 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button">
-                    Learn More
+                    더 알아보기
                   </Link>
                 </li>
               </ul>
             </footer>
           </section>
 
-          <section id="second" className="main special">
-            <header className="major">
-              <h2>Ipsum consequat</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
-            </header>
-            <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-code-fork" />
-                <strong>5,120</strong> Etiam
-              </li>
-              <li className="style2">
-                <span className="icon fa-folder-open-o" />
-                <strong>8,192</strong> Magna
-              </li>
-              <li className="style3">
-                <span className="icon fa-signal" />
-                <strong>2,048</strong> Tempus
-              </li>
-              <li className="style4">
-                <span className="icon fa-laptop" />
-                <strong>4,096</strong> Aliquam
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond" />
-                <strong>1,024</strong> Nullam
-              </li>
-            </ul>
-            <p className="content">
-              Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl
-              eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum
-              ac arcu sit amet, fermentum pellentesque et purus. Integer maximus
-              varius lorem, sed convallis diam accumsan sed. Etiam porttitor
-              placerat sapien, sed eleifend a enim pulvinar faucibus semper quis
-              ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer
-              eget purus nec nulla mattis et accumsan ut magna libero. Morbi
-              auctor iaculis porttitor. Sed ut magna ac risus et hendrerit
-              scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras
-              eu ornare dui curabitur lacinia.
+            <section id="second" className="main special">
+                <header className="major">
+                    <h2>MyData 블로그</h2>
+                </header>
+                <ul className="features">
+                    <li>
+                        <span className="icon major style3 fa-copy" />
+                        <h3>MyData 서비스모델</h3>
+                        <p>
+                            MyData 비즈니스 모델에 대한 설명 추가 
             </p>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
-          </section>
+                    </li>
+                    <li>
+                        <span className="icon major style3 fa-copy" />
+                        <h3>MyData 구현기술</h3>
+                        <p>
+                            MyData 구현기술에 대한 설명 추가
+            </p>
+                    </li>
+                    <li>
+                        <span className="icon major style5 fa-diamond" />
+                        <h3>MyData 법제도</h3>
+                        <p>
+                            MyData 법제도에 대한 설명 추
+            </p>
+                    </li>
+                </ul>
+                <footer className="major">
+                    <ul className="actions">
+                        <li>
+                            <Link to="/generic" className="button">
+                                더 알아보기
+                </Link>
+                        </li>
+                    </ul>
+                </footer>
+            </section>
+
+
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Help</h2>
+              <h2>MyData 회원등록</h2>
               <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
+                MyData Korea 허브는 현재 창립회원을 모집하고 있습니다.
                 <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
+                관심이 있으신 분께서는 MyData 선언문에 서명한 후 연락바랍니다.
               </p>
               <SubscribeToMailingList/>
             </header>
@@ -174,12 +154,12 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button special">
-                    Get Started
+                    가입신청
                   </Link>
                 </li>
                 <li>
                   <Link to="/generic" className="button">
-                    Learn More
+                    더 알아보기
                   </Link>
                 </li>
               </ul>

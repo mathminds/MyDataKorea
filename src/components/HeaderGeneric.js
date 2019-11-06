@@ -2,8 +2,8 @@ import React from 'react'
 
 const HeaderGeneric = props => (
   <header id="header">
-    <h1>Generic</h1>
-    <p>Ipsum dolor sit amet nullam</p>
+    <h1>MyData 선언Declaration</h1>
+        <p>MyData 선언문에 서명하십시오. 설명 추가...</p>
   </header>
 )
 

@@ -1,21 +1,27 @@
 module.exports = {
-  siteMetadata: {
-    title: 'MyData Scotland',
-    author: 'Will Abramson',
-    description: 'A Scottish community of the data conscious individuals, part of the MyData Global organisation and movement.',
-  },
+    siteMetadata: {
+
+        title: 'MyData Korea',
+        author: 'Chris Lee',
+        description: 'A MyData Global Local Hub Initiative.',
+        siteUrl: `https://mydatakorea.io`,
+        social: {
+            twitter: `MyDataKorea`,
+        },
+    },
+  
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'MyData Scotland Hub',
-        short_name: 'MyData Scotland',
-        start_url: '/',
+          name: 'MyData Korea',
+          short_name: 'MyData Korea',
+          start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/mydata/mydata-logothumb.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/mydata/mydatakorea-colour-down.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
