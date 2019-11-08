@@ -50,7 +50,7 @@ class Index extends React.Component {
                 </p>
                 <ul className="actions">
                   <li>
-                    <Link to="/declaration" className="button">
+                    <Link to="/blogs" className="button">
                       선언문 읽어보기
                     </Link>
                   </li>
