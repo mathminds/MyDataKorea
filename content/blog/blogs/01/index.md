@@ -7,8 +7,12 @@ description: "여러분은 자신의 데이터에 대한 권리가 있습니다.
 [원본링크](https://medium.com/mydata/mydata-from-data-protection-to-data-empowerment-810ef4e10eb7)
 
 
-![pic](https://miro.medium.com/max/1920/1*eqI6AKMjxLef0gH2zIu5AQ.jpeg)
+![pic](https://miro.medium.com/max/1920/1*eqI6AKMjxLef0gH2zIu5AQ.jpeg){:width="40"}
 
+<img src="https://miro.medium.com/max/1920/1*eqI6AKMjxLef0gH2zIu5AQ.jpeg" width="auto" />
+
+
+<img src="https://miro.medium.com/max/1920/1*eqI6AKMjxLef0gH2zIu5AQ.jpeg" />
 여러분은 자신의 데이터에 대한 권리가 있습니다. 여러분은 개인 정보 및 데이터 보호를 받을 권리가 있습니다. 또한 여러분은 보호를 수동적으로 받는 사람이기보단 여러분에 관한 데이터를 최대한 활용할 권리가 있습니다. 이것이 바로 MyData Global이 존재하는 이유 입니다. MyData Global은 여러분 곁에 있는 비영리 단체로서 우리 모두의 데이터 권한을 강화할 수 있도록 노력하고 있습니다.
 
 ###데이터 보호는 최소한의 권한입니다
