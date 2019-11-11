@@ -1,6 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
+import HeaderResources from '../components/HeaderResources'
+
 import Bio from "../components/blog/bio"
 import Layout from "../components/blog/layout"
 import SEO from "../components/blog/seo"
@@ -14,13 +16,15 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
+
+        <SEO title="자료실" />
         <Bio />
+        <HeaderResources />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <article key={node.fields.slug}>
-              <header>
+              
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),
@@ -31,7 +35,7 @@ class BlogIndex extends React.Component {
                   </Link>
                 </h3>
                 <small>{node.frontmatter.date}</small>
-              </header>
+              
               <section>
                 <p
                   dangerouslySetInnerHTML={{
