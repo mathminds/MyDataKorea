@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import HeaderResources from '../components/HeaderResources'
 
 import Bio from "../components/blog/bio"
-import Layout from "../components/blog/layout"
+import Layout from "../components/layout"
 import SEO from "../components/blog/seo"
 import { rhythm } from "../utils/typography"
 
@@ -17,9 +17,11 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
 
-        <SEO title="자료실" />
-        <Bio />
         <HeaderResources />
+            <div id="main">
+          <section id="content" className="main">
+        
+
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
@@ -46,6 +48,7 @@ class BlogIndex extends React.Component {
             </article>
           )
         })}
+        </section></div>
       </Layout>
     )
   }

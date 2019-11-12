@@ -40,7 +40,8 @@ const Bio = () => {
         marginBottom: rhythm(3.0),
       }}
     >
-      <Image
+      <a href="/">
+          <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author}
         style={{
@@ -52,15 +53,14 @@ const Bio = () => {
         imgStyle={{
           borderRadius: `50%`,
         }}
-      />
+      /></a>
       <p>
-        Created by <strong>MyData Korea Hub. </strong> 
-         MyData Korea Hub Official 웹사이트입니다.
+        Created by <strong>MyData Korea Hub. </strong> <br />
+         MyData Korea Hub Official 웹사이트입니다.<br />
         {` `}
 
-        <a href={`https://twitter.com/${social.twitter}`}>
-          MyData Korea Twitter 로 최신 소식을 받아보세요
-        </a>
+        트위터 계정 <a href={`https://twitter.com/${social.twitter}`}>
+          @MyDataKorea</a>를 팔로우하고 최신 소식을 받아보세요.
       </p>
     </div>
   )

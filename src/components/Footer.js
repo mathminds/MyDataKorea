@@ -19,11 +19,11 @@ const Footer = props => (
             </ul>
         </section>
         <section>
-            <h2>MyData Korea Hub</h2>
+            <h2>MyData Korea 허브</h2>
             <dl className="alt">
-                <dt>Address</dt>
+                <dt>주소</dt>
                 <dd>220 Yeongsin-ro, Yeongdeungpo-gu  &bull; Seoul &bull; Korea</dd>
-                <dt>Phone</dt>
+                <dt>전화</dt>
                 <dd>(+82-2) 786-7281</dd>
                 <dt>Email</dt>
                 <dd>
@@ -32,28 +32,23 @@ const Footer = props => (
             </dl>
             <ul className="icons">
                 <li>
-                    <a href="#" className="icon fa-twitter alt">
+                    <a href="https://twitter.com/MyDataKorea" className="icon fa-twitter alt">
                         <span className="label">Twitter</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#" className="icon fa-facebook alt">
+                    <a href="https://www.facebook.com/MyData-Korea-119211012798977" className="icon fa-facebook alt">
                         <span className="label">Facebook</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#" className="icon fa-instagram alt">
+                    <a href="https://www.instagram.com/mydatakorea/" className="icon fa-instagram alt">
                         <span className="label">Instagram</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" className="icon fa-github alt">
                         <span className="label">GitHub</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" className="icon fa-dribbble alt">
-                        <span className="label">Dribbble</span>
                     </a>
                 </li>
             </ul>
